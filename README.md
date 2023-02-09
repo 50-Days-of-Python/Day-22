@@ -1,16 +1,19 @@
-# Day-21
+# Day-22
 
-### List of Tuples
-Write a function called `make_tuples` that takes two lists, `equal lists`, and combines them into a list of tuples.   
-For example, if list **a** is **[1,2,3,4]** and list **b** is **[5,6,7,8]**, your function should return **[(1,5), (2,6), (3,7), (4,8)]**.
+### Add Under_Score
+Create **three** functions. The first called `add_hash` takes a string and adds a hash # between the words. The second function called `add_underscore` removes the hash (#) and replaces it with an
+underscore "_" The third function called `remove_underscore`,
+removes the underscore and replaces it with nothing. 
+For example, if you pass `Python` as an argument for the three functions, and you call them at the same time like: `print(remove_underscore(add_underscore(add_hash('Python'))))` it should return ‘Python’.
+
 
 
 make_tuples function
 
 **Tests** | **1** | **2** | **3**
 --- | --- | --- | --- 
-**Input arguments:** | `[1,2,3,4], [5,6,7,8]` | `[1,2.5,3,4], [5,6,7,8]` | `['a','b','c','d'], ['e','f','g','h']` 
-**Return:** | `[(1,5), (2,6), (3,7), (4,8)]` | `[(1,5), (2.5,6), (3,7), (4,8)]` | `[('a','e'), ('b','f'), ('c','g'), ('d','h')]` 
+**Input arguments:** | `Python` | `Hello World` | `Foo Bar Baz` 
+**Return:** | `Python` | `HelloWorld` | `FooBarBaz` 
 **Validity** | :white_check_mark: | :white_check_mark: | :white_check_mark: 
 
 &nbsp;
@@ -34,11 +37,10 @@ You can always change your code. So don't be disappointed if your code fails, **
 <details>
 <summary>Hint</summary>
 <br>
-https://www.w3schools.com/python/python_lists.asp<br>
-https://www.geeksforgeeks.org/python-list-comprehension/<br>
+https://www.geeksforgeeks.org/functions-in-python/<br>
+https://www.geeksforgeeks.org/string-methods-in-python//<br>
 https://www.w3schools.com/python/python_functions.asp<br>
-https://www.w3schools.com/python/python_conditions.asp<br>
-https://www.w3schools.com/python/python_return.asp
+https://www.w3schools.com/python/python_strings.asp<br>
 <br>
 </details>
 
