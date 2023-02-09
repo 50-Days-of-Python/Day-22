@@ -1,6 +1,11 @@
-def make_tuples(*lists):
-  new_list = []
-  # Insert code below
-  
-  # Insert code above
-  return new_list
+def add_hash(text):
+    x = ""
+    return x
+
+def add_underscore(text):
+  y = ""
+    return y
+
+def remove_underscore(text):
+    z = ""
+    return z
